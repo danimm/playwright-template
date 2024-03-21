@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e2e:test": "playwright test",
-    "e2e:test-ui": "playwright test --trace on",
-    "e2e:test-trace-mode": "playwright test --ui",
-    "e2e:test-debug": "playwright test --debug",
-    "e2e:test-codegen": "playwright test codegen",
-    "e2e:report": "playwright show-report"
+    "test": "playwright test",
+    "test-ui": "playwright test --ui",
+    "test-trace-mode": "playwright test --trace on",
+    "test-debug": "playwright test --debug",
+    "test-codegen": "playwright test codegen",
+    "test-report": "playwright show-report"
   },
   "keywords": [],
   "author": "",
