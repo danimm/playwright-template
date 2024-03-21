@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "e2e:test": "playwright test",
+    "e2e:test-ui": "playwright test --trace on",
+    "e2e:test-trace-mode": "playwright test --ui",
+    "e2e:test-debug": "playwright test --debug",
+    "e2e:test-codegen": "playwright test codegen",
+    "e2e:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.30"
+  }
+}
